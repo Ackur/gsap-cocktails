@@ -121,7 +121,6 @@ const MenuSlider = () => {
             />
           </button>
         </div>
-        {sliderDirection}
 
         <div className="cocktail">
           <img
