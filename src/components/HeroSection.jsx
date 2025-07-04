@@ -69,13 +69,13 @@ const HeroSection = () => {
         <h1 className="title"> MOJITO </h1>
 
         <img
-          src="/images/hero-left-leaf.png"
+          src="/images/hero-left-leaf.avif"
           alt="left-leaf"
           className="left-leaf"
         />
 
         <img
-          src="/images/hero-right-leaf.png"
+          src="/images/hero-right-leaf.avif"
           alt="right-leaf"
           className="right-leaf"
         />

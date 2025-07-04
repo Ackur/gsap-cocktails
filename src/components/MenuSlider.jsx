@@ -61,12 +61,12 @@ const MenuSlider = () => {
     <section id="menu" aria-labelledby="menu-heading">
       <img
         id="m-left-leaf"
-        src="public\images\slider-left-leaf.png"
+        src="public\images\slider-left-leaf.avif"
         alt="slider left leaf"
       />
       <img
         id="m-right-leaf"
-        src="public\images\slider-right-leaf.png"
+        src="public\images\slider-right-leaf.avif"
         alt="slider right leaf"
       />
 
@@ -103,7 +103,7 @@ const MenuSlider = () => {
           >
             <span>{prevCocktail.name}</span>
             <img
-              src="/images/right-arrow.png"
+              src="/images/right-arrow.avif"
               alt="right arrow"
               aria-hidden="true"
             />
@@ -115,7 +115,7 @@ const MenuSlider = () => {
           >
             <span>{nextCocktail.name}</span>
             <img
-              src="/images/left-arrow.png"
+              src="/images/left-arrow.avif"
               alt="left arrow"
               aria-hidden="true"
             />
@@ -125,6 +125,7 @@ const MenuSlider = () => {
         <div className="cocktail">
           <img
             src={currentCocktail.image}
+            loading="lazy"
             alt="cocktail"
             className="object-contain"
           />

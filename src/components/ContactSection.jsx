@@ -46,12 +46,12 @@ const ContactSection = () => {
     <footer id="contact">
       <img
         id="f-right-leaf"
-        src="/images/footer-right-leaf.png"
+        src="/images/footer-right-leaf.avif"
         alt="footer-right-leaf"
       />
       <img
         id="f-left-leaf"
-        src="/images/footer-left-leaf.png"
+        src="/images/footer-left-leaf.avif"
         alt="footer-left-leaf"
       />
 
